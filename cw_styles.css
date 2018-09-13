@@ -53,17 +53,62 @@ body>header {
     background-color: rgb(97, 97, 211);
 }
 
+h1 body>header {
+    font-size: 4vw;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Limelight, cursive;
+    margin: 0px;
+}
+
+span h1 body>header {
+    color: rgba(255, 255, 255, 0.4);
+}
 
 /* Navigation Styles */
 
+nav#mainLinks {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
+nav a:visited, 
+nav a:link {
+    color: white;
+}
 
+nav a:hover,
+nav a:active {
+    color: white;
+    opacity: 0.8;
+    background-color: rgba(51, 51, 51, 0.5);
+}
 
 /* Outline Styles */
 
+nav#outline {
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+}
 
+nav#outline h1 {
+    text-align: center;
+}
 
+nav#outline>ol {
+    line-height: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style-type: upper-roman;
+}
+nav#outline, ol {
+    list-style-type: uppercase;
+}
 
+nav a:visited nav#outline, nav a:link nav#outline {
+    color: rgb(101, 101, 101);
+}
 /* Section Styles */
 
 
